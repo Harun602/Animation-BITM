@@ -1,0 +1,86 @@
+*{
+  
+}
+@keyframes demo-one{
+  0%{background: red;}
+  25%{background: black;}
+  50%{background: orange;}
+  75%{background: green;}
+  100%{background: yellow;}
+}
+.box-one{
+  height: 200px;
+  width: 300px;
+  margin: 50px;
+  background: deeppink;
+  animation-name: demo-one;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes demo-two{
+  0%{background: red; width: 300px;}
+  50%{background: orange; width: 800px;}
+  100%{background: green; width: 300px;}
+}
+.box-two{
+  height: 200px;
+  width: 300px;
+  margin: 50px;
+  background: deeppink;
+  animation-name: demo-two;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes demo-three{
+  0%{background: red; height: 200px; width: 300px;}
+  25%{background: black; height: 200px; width: 1200px;}
+  50%{background: orange; height: 200px; width: 300px;}
+  75%{background: green; height: 300px; width: 300px;}
+  100%{background: yellow; height: 200px; width: 300px;}
+}
+.box-three{
+  height: 200px;
+  width: 300px;
+  margin: 50px;
+  background: deeppink;
+  animation-name: demo-three;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes demo{
+  0%{background: red; left: 0px;}
+  50%{background: green; left: 900px;}
+  100%{background: yellow; left: 0px;}
+}
+.box-four{
+  height: 200px;
+  width: 300px;
+  margin: 50px;
+  background: deeppink;
+  position: relative;
+  animation-name: demo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes demo-five{
+  0%{background: red; left: 0px;}
+  50%{background: green; left: 900px;}
+  100%{background: yellow; left: 0px;}
+}
+.box-five{
+  height: 200px;
+  width: 200px;
+  /* background: deeppink; */
+  border-bottom: 10px solid greenyellow;
+  border-radius: 100px;
+  position: relative;
+  /* right: 10px;
+  bottom: 10px; */
+  /* animation-name: demo-five; */
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
